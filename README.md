@@ -35,7 +35,7 @@ Looping allows a set of instructions to be executed repeatedly based on a condit
 
 - The `for` loop is used when the number of iterations is known.
 - Syntax:
-  ```
+  ```cpp
   for(initialization ; condition ;  step - increment or decrement ){
       // loop body
   }
@@ -55,7 +55,7 @@ Looping allows a set of instructions to be executed repeatedly based on a condit
 - The while loop is used when the number of iterations is not known beforehand.
 - The loop continues until the condition becomes false.
 - Syntax:
- ```
+ ```cpp
 while(condition){
     // loop body
 }
@@ -67,7 +67,7 @@ while(condition){
 - After executing the body, the condition is checked.
 - If the condition is true, the loop continues; otherwise, it exits.
 - Syntax :
-```
+```cpp
 do {
     // code to be executed
 } while(condition);
