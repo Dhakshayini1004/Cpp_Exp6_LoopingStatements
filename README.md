@@ -48,7 +48,7 @@ Looping allows a set of instructions to be executed repeatedly based on a condit
 
 --- 
 
-###2. While Loop
+### 2. While Loop
 - The while loop is used when the number of iterations is not known beforehand.
 - The loop continues until the condition becomes false.
 - Syntax:
@@ -69,15 +69,15 @@ do {
     // code to be executed
 } while(condition);
 ```
-###Loop Control Statements
+### Loop Control Statements
 1. continue: Skips the current iteration and jumps to the next loop cycle.
 2. exit(0): Terminates the program immediately. Often used after success/failure cases like password validation.
 
 ---
 
 ### Header File: `<cstring>`
-
-The `<cstring>` header file in C++ provides functions for manipulating C-style strings, which are arrays of characters ending with a null character (`'\0'`). It is the C++ version of the C standard library `<string.h>`.
+- The `<cstring>` header file in C++ provides functions for manipulating C-style strings, which are arrays of characters ending with a null character (`'\0'`).
+- It is the C++ version of the C standard library `<string.h>`.
 
 ### Key Points:
 - Used to perform operations on character arrays, not `std::string`.
@@ -122,7 +122,7 @@ The `<cstring>` header file in C++ provides functions for manipulating C-style s
 -- It checks each number using the modulus operator (%) to determine evenness.
 -- The continue statement is used to skip odd numbers and continue to the next iteration.
 
--The second program uses a for loop to print the word "SIT" five times.
+- The second program uses a for loop to print the word "SIT" five times.
 -- It highlights how repetitive tasks can be handled using loops instead of writing the same line multiple times.
 
 - The third program uses a while loop for password validation.
@@ -180,9 +180,7 @@ Hooray Unlocked!
 ```
 Enter a number: 1234
 Reversed number: 4321
-yaml
-Copy
-Edit
+
 Enter a number: 550
 Reversed number: 55
 ```
