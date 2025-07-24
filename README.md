@@ -40,11 +40,14 @@ Looping allows a set of instructions to be executed repeatedly based on a condit
       // loop body
   }
   ```
--Execution steps:
--- Initialize loop variable.
--- Check condition.
--- If condition is true, execute loop body.
--- Update the variable.
+#### Execution Steps
+
+- **Initialize** the loop control variable.
+- **Check** the loop condition.
+- If the **condition is true**, execute the loop body.
+- **Update** the loop variable (increment/decrement).
+- Repeat the process until the condition becomes false.
+
 
 --- 
 
@@ -75,7 +78,7 @@ do {
 
 ---
 
-### Header File: `<cstring>`
+## Header File: `<cstring>`
 - The `<cstring>` header file in C++ provides functions for manipulating C-style strings, which are arrays of characters ending with a null character (`'\0'`).
 - It is the C++ version of the C standard library `<string.h>`.
 
@@ -98,7 +101,7 @@ do {
 
 --- 
 
-##Application-Based Use Cases
+## Application-Based Use Cases
 1. Repeating a task multiple times
 2. Calculating sum or product of numbers
 3. Searching for an element in an array
@@ -117,23 +120,27 @@ do {
 
 --- 
 
-## Program Description
-- The first program demonstrates a for loop that prints even numbers from 0 to 10.
--- It checks each number using the modulus operator (%) to determine evenness.
--- The continue statement is used to skip odd numbers and continue to the next iteration.
+##  Program Description
 
-- The second program uses a for loop to print the word "SIT" five times.
--- It highlights how repetitive tasks can be handled using loops instead of writing the same line multiple times.
+- **Program 1**: *Print even numbers from 0 to 10 using a for loop*  
+  - A `for` loop is used to iterate from 0 to 10.
+  - Each number is checked using the modulus operator `%` to determine if it is even.
+  - The `continue` statement is used to skip odd numbers and move to the next iteration.
 
-- The third program uses a while loop for password validation.
--- It allows the user up to 5 attempts to input the correct password using strcmp() for comparison.
--- If the password is correct, exit(0) is used to immediately terminate the program.
--- If the user fails all 5 attempts, a message is shown and the program exits.
+- **Program 2**: *Print the word "SIT" five times using a for loop*  
+  - Demonstrates the use of a `for` loop to perform a task repeatedly.
+  - Eliminates the need to manually write the same print statement multiple times.
 
-- The fourth logic (to be written separately) involves reversing a number using a while loop.
--- It repeatedly extracts the last digit of the number using % 10.
--- The reversed number is constructed step by step using multiplication and addition.
--- The original number is reduced by dividing by 10 in each iteration until it becomes zero
+- **Program 3**: *Password validation using a while loop*  
+  - A `while` loop is used to give the user up to 5 attempts to enter the correct password.
+  - The `strcmp()` function is used to compare the entered password with the correct one.
+  - If the password is correct, `exit(0)` terminates the program immediately.
+  - If all attempts are exhausted, the user is shown a failure message and the program ends.
+
+- **Program 4**: *Reverse a number using a while loop*  
+  - The program extracts the last digit of a number using `% 10`.
+  - Builds the reversed number by multiplying and adding the digits step by step.
+  - The original number is reduced by dividing by 10 in each iteration until it reaches 0.
 
 ---
 
