@@ -141,6 +141,27 @@ do {
   - The program extracts the last digit of a number using `% 10`.
   - Builds the reversed number by multiplying and adding the digits step by step.
   - The original number is reduced by dividing by 10 in each iteration until it reaches 0.
+ 
+- **Program 5**: *Print 15 different star/number/alphabet patterns using nested loops*  
+  - Uses nested `for` loops to create complex patterns.
+  - Demonstrates control of rows and columns for character placement.
+  - Patterns include:
+    1. **Right-angled Triangle** — increasing stars by row.
+    2. **Inverted Right-angled Triangle** — decreasing stars by row.
+    3. **Mirrored Right-angled Triangle** — right-aligned triangle using spaces.
+    4. **Simple Equilateral Triangle** — centered triangle with increasing `*`.
+    5. **Inverted Equilateral Triangle** — reverse of above.
+    6. **Complex Equilateral Triangle** — pyramid without spacing between stars.
+    7. **Number Triangle** — ascending numbers printed row-wise.
+    8. **Diamond Pattern** — symmetric triangle top and bottom.
+    9. **Hourglass Pattern** — inverted then upright triangle with spaces.
+    10. **Row Number Pyramid** — repeated row numbers per line.
+    11. **Mirrored Number Triangle** — each row starts with increasing sequence.
+    12. **Alphabet Pyramid** — same letter (like `A`, `B`,...) repeated in row.
+    13. **Continuous Alphabet Pyramid** — A-Z printed continuously in pyramid form.
+    14. **Half Diamond Pattern** — grows then shrinks in star count.
+    15. **Mirrored Right-angled Triangle (Full)** — triangle followed by inverted triangle for mirror effect.
+  - Helps visualize control structures like nested loops and spacing logic for shape alignment.
 
 ---
 
@@ -190,4 +211,114 @@ Reversed number: 4321
 
 Enter a number: 550
 Reversed number: 55
+```
+5. Pattern Printing
+``` 
+Enter the number of rows :
+5
+*
+**
+***
+****
+*****
+
+*****
+****
+***
+**
+*
+
+    *
+   **
+  ***
+ ****
+*****
+
+    * 
+   * * 
+  * * * 
+ * * * * 
+* * * * * 
+
+* * * * * 
+ * * * * 
+  * * * 
+   * * 
+    * 
+
+     *
+    ***
+   *****
+  *******
+ *********
+
+1	
+2	3	
+4	5	6	
+7	8	9	10	
+11	12	13	14	15	
+
+    *
+   * *
+  * * *
+ * * * *
+* * * * * 
+ * * * * 
+  * * * 
+   * * 
+    * 
+
+ * * * * *
+  * * * *
+   * * *
+    * *
+     *
+    * *
+   * * *
+  * * * *
+ * * * * *
+
+1	
+2	2	
+3	3	3	
+4	4	4	4	
+5	5	5	5	5	
+
+    1
+   23
+  345
+ 4567
+56789
+
+A
+BB
+CCC
+DDDD
+EEEEE
+
+A
+BC
+DEF
+GHIJ
+KLMNO
+
+ *
+ * *
+ * * *
+ * * * *
+ * * * * *
+ * * * *
+ * * *
+ * *
+ *
+
+    *
+   **
+  ***
+ ****
+*****
+ ****
+  ***
+   **
+    *
 ```
