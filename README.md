@@ -203,7 +203,18 @@ Oh-Oh Wrong password, Try again
 Enter your Password	Dhakshayini44
 Hooray Unlocked!
 ```
-
+```
+Enter your Password	Dhakshayini
+Oh-Oh Wrong password, Try again
+Enter your Password	v
+Oh-Oh Wrong password, Try again
+Enter your Password	Dhakshayini
+Oh-Oh Wrong password, Try again
+Enter your Password	Dhakshayini
+Oh-Oh Wrong password, Try again
+Enter your Password	Dhakshayini
+Come Back Later, You have a forgetfull brain!!
+```
 4. Reversing a Number using while
 ```
 Enter a number: 1234
